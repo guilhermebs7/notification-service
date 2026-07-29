@@ -126,9 +126,6 @@ curl -X POST http://localhost:8080/usuarios \
 
 ---
 
-
----
-
 ## 🧩 Estrutura do Projeto
 
 ```
@@ -150,13 +147,17 @@ notification-service/
 ```
 
 ---
+
 ## 📸 Resultados
-<img width="697" height="145" alt="Captura de tela 2026-07-28 210056" src="https://github.com/user-attachments/assets/9c1127f3-5cf8-42cc-817e-8c59b7fdc4e6" />
-<img width="1131" height="132" alt="Captura de tela 2026-07-28 195145" src="https://github.com/user-attachments/assets/38ff5585-83c0-474c-85c3-362d13229706" />
-<img width="433" height="228" alt="Captura de tela 2026-07-28 205315" src="https://github.com/user-attachments/assets/9483cdea-fd9f-45a4-8bd8-202258113942" />
 
+**1. Resposta da API confirmando o cadastro (`201 Created`)**
 
+<img width="700" alt="Resposta da API" src="https://github.com/user-attachments/assets/9c1127f3-5cf8-42cc-817e-8c59b7fdc4e6" />
 
+**2. Log da aplicação consumindo a fila e enviando o e-mail**
 
+<img width="700" alt="Log do EmailConsumer" src="https://github.com/user-attachments/assets/38ff5585-83c0-474c-85c3-362d13229706" />
 
+**3. E-mail de boas-vindas recebido**
 
+<img width="700" alt="E-mail recebido" src="https://github.com/user-attachments/assets/9483cdea-fd9f-45a4-8bd8-202258113942" />
